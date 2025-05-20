@@ -7,7 +7,7 @@ public class Main {
     public static void main(String[] args) {
         Scanner lectura = new Scanner(System.in);
         ConsultaAPIPelicula consulta = new ConsultaAPIPelicula();
-        System.out.println("escribe el numero de la pelicula que quieres consultar");
+        System.out.println("escribe el numero de la pelicula que quieres consultar!");
         try{
             var numeroDePelicula = Integer.valueOf(lectura.nextLine());
             Pelicula pelicula = consulta.buscaPelicula(numeroDePelicula);
